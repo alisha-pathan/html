@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* background color */
+body {
+    background-color: black;
+
+    /* background-color: hsla(0, 0%, 15%, 0.963);
+    background-image:url("bgt.jpeg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+
+/*index.html  main file */
+
+/* navbar */
+
+header {
+    color: white;
+    background-color: black;
+    /* background-color: rgba(0, 0, 0, 0.731); */
+    /* background: linear-gradient(to top,  rgba(0, 0, 0, 0.5),rgba(44, 47, 49, 0.195),rgba(0, 0, 0, 0.615)),  url("bg2.jpeg");    */
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    border: 3px solid hsl(0, 0%, 2%);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 0 2px rgb(37, 37, 37);
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 25px;
+    transition: all 0.5 ease-out;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    /* color: rgb(2, 63, 119); */
+    color: hsl(50, 100%, 52%);
+    font-weight: 800;
+    border-bottom: 3px solid rgb(2, 63, 119);
+    /* border-bottom: 3px solid #ffd60a; */
+    width: fit-content;
+    padding: 5px;
+}
+
+
+/* logo image */
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.tlogo {
+    height: 50px;
+    width: 53px;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.logo p,
+.t1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    border-bottom: 5px solid rgb(2, 63, 119);
+    margin: 0;
+}
+.logo:hover {
+    color: hsl(50, 100%, 52%);
+    text-shadow: 1px 1px 2px black, 0 0 25px hsla(30, 2%, 25%, 0.371), 0 0 5px rgba(246, 246, 249, 0.398);
+    transform: scale(1.1);
+    transition: all 0.9s ease;
+}
+/* section  */
+.index-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15vh;
+    padding: 2vh;
+    color: white;
+    font-size: 35px;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.itext {
+    position: absolute;
+    left: 18vh;
+    top: 28vh;
+    background: linear-gradient(to right, hsl(50, 88%, 60%), hsl(8, 98%, 50%));
+    background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+.htext {
+    display: block;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 200;
+    color: gold;
+}
+.at {
+    /* color: rgb(229, 224, 224); */
+    color: gold;
+    text-transform: lowercase;
+    font-size: 35px;
+}
+
+.wtext {
+    font-size: 40px;
+    background: linear-gradient(to right, hsl(187, 100%, 50%), rgb(113, 25, 254));
+    background-clip: text;
+    text-transform: uppercase;
+    color: transparent;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.my_name {
+    display: block;
+    padding: 5px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.li {
+    background: linear-gradient(to right, hsl(50, 88%, 60%), hsl(8, 98%, 50%));
+    background-clip: text;
+    color: transparent;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 35px;
+    text-transform:uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icontent {
+    color: rgb(156, 160, 159);
+    display: block;
+    position: absolute;
+    top: 5vh;
+    font-size: 20px;
+    font-weight: lighter;
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 18vh;
+    top: 50vh;
+    width: 590px;
+    height: 15px;
+    text-align: justify;
+    align-items: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+
+/* IMAGE RIGHT SIDE   */
+.iimg {
+    position: absolute;
+    right: 24vh;
+    top: 23vh;
+ }
+ 
+.logo_img {
+    height: 340px;
+    width: 340px;
+    border: 7px solid hsl(0, 0%, 1%);
+    outline: 2px solid rgba(251, 252, 252, 0.731);
+    border-radius: 45%;
+    box-shadow: 1px 2px black, 0 0 25px rgba(2, 197, 246, 0.737), 0 0 5px rgba(8, 8, 6, 0.762);
+    padding: 23px;
+    /* background-color: rgb(65, 2, 27); */
+    background-image: radial-gradient(rgb(8, 85, 108),rgb(6, 42, 47),black)  
+}
+.logo_img:hover{
+    
+    box-shadow: 1px 1px 2px black, 0 0 25px hsla(164, 98%, 49%, 0.991), 0 0 5px rgba(246, 246, 249, 0.398);
+    transform: scale(1.1);
+    transition: all 0.3s ease-out;
+}
+
+
+
+
+
+/* ANIMATION */
+.wtext::before{
+    content:"";
+}
+.wtext::after{
+    content: "";
+    animation: 5s wtex infinite;
+}
+
+@keyframes wtex 
+{
+    0%, 25%{
+        content:"Web developer";
+    }
+    25%,50%{
+        content: "Mern developer";
+    }
+    50%,75%{
+        content:"Full stack developer";
+    }
+    75%,100%{
+        content: "Python developer";
+    }
+}
